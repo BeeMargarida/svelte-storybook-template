@@ -1,5 +1,5 @@
 import Decorator from './Decorator.svelte';
 
-export const decorators = [() => Decorator];
+export const decorators = [() => ({ Component: Decorator })];
 
 export const parameters = {}
